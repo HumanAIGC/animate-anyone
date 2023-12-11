@@ -46,6 +46,40 @@
 </head>
 <body>
 
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+        <a class="navbar-item" href=https://github.com/HumanAIGC>
+          <span class="icon">
+            <i class="fas fa-home"></i>
+          </span>
+        </a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            More Research
+          </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://humanaigc.github.io/outfit-anyone/">
+              OutfitAnyone
+            </a>
+            <a class="navbar-item" href="https://tomguluson92.github.io/projects/cloth2tex/">
+              Cloth2Tex
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+
 
   <section class="hero">
     <div class="hero-body">
@@ -245,13 +279,6 @@
         <div class="item item-video3">
           <video poster="" id="video3" autoplay controls muted loop height="100%">\
             <!-- Your video file here -->
-            <source src="static/videos/demo16.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
             <source src="static/videos/demo17.mp4"
             type="video/mp4">
           </video>
@@ -432,7 +459,7 @@
         </div>
       </div>
       <h2 class="content has-text-centered">
-        Fashion Video Synthesis aims to turn fashion photographs into realistic, animated videos using a driving pose sequence. Experiments are conducted on the UBC fashion video dataset with same training data. 
+        Fashion Video Synthesis aims to turn fashion photographs into realistic, animated videos using a driving pose sequence. Experiments are conducted on the UBC fashion video dataset with same training data. We demonstrate the integration of Animate Anyone with <a href="https://humanaigc.github.io/outfit-anyone/">Outfit Anyone</a>, to achieve outfit changes and motion video generation for any character.
     </div>
   </div>
 </section>
